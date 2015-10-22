@@ -47,7 +47,6 @@ public class ChatClient extends Thread {
 			while (true) {
 				if (uID == null) uID = br.readLine();
 				else {
-					System.out.print(uID);
 					String line = br.readLine();
 					//append to text area
 					if (line == null) break;
